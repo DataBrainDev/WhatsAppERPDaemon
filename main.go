@@ -387,4 +387,6 @@ func main() {
 		fmtlog("Starting WhatsApp contact checker")
 		startContactChecker()
 	}()
+
+	select {}
 }
